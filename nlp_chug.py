@@ -4,10 +4,10 @@ from nltk import metrics
 import os, math
 
 # ABBYY will save utf-8 text files with a Byte Order Mark.
-ocr = "C:\\Users\\Pointyhead\\Documents\\nybg\\ocr\\"
-lines = "C:\\Users\\Pointyhead\\Documents\\nybg\\lines.txt"
+ocr = "C:\\ocr\\"
+lines = "C:\\lines.txt"
 dir_ocr = os.listdir(ocr)
-output = "C:\\Users\\Pointyhead\\Documents\\nybg\\processed.txt"
+output = "C:\\processed.txt"
 punct = ".!¡:;?\'\"\]\|—“°\¿[’»«}{()*• \t~■£€„&-=+_#@®©$%*,<>/”^".decode('utf-8')
 
 class process:
